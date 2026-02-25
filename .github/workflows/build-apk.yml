@@ -40,8 +40,8 @@ jobs:
 
       - name: Gerar APK
         run: |
-          cd android
-          ./gradlew assembleDebug --no-daemon
+          chmod +x android/gradlew
+          cd android && ./gradlew assembleDebug --no-daemon
 
       - name: Upload APK
         uses: actions/upload-artifact@v4
