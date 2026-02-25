@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">Rastreador de Hábitos</string>
+    <string name="title_activity_main">Rastreador de Hábitos</string>
+    <string name="package_name">com.rastreador.habitos</string>
+    <string name="custom_url_scheme">com.rastreador.habitos</string>
+</resources>
